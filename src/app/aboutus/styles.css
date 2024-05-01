@@ -1,0 +1,24 @@
+.aboutUs {
+  .aboutUs__cover {
+    img {
+      width: 100%;
+    }
+  }
+
+  .aboutUs__intro {
+    width: 80%;
+    margin: 3rem auto 0;
+  }
+
+  .aboutUs__company {
+    img {
+      height: 40rem;
+      width: 50%;
+        object-fit: cover;
+    }
+    .aboutUs__company__info {
+      width: 50%;
+      margin-left: 3rem;
+    }
+  }
+}

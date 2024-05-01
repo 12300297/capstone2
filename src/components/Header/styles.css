@@ -1,0 +1,25 @@
+.header {
+  padding: 1.5rem;
+  .headerBox {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header__nav {
+    a {
+      margin: 0 1.8rem;
+      color: var(--sub-text);
+      font-weight: 500;
+    }
+
+    .header__nav__btn {
+      background-color: #00bfff;
+      border-radius: 3rem;
+      padding: 1rem 1.5rem;
+      color: white;
+      img {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+}

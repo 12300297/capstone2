@@ -1,0 +1,43 @@
+.home {
+  width: 80%;
+  margin: 5rem auto 0;
+
+  .home__left {
+    width: 40%;
+    .home__left__subTitle {
+      color: var(--sub-text);
+      font-size: 1.5rem;
+    }
+
+    .home__left__title {
+      font-size: 3.6rem;
+      color: var(--blue-btn);
+
+      .home__left__title--normalColor {
+        color: rgb(109, 109, 109);
+      }
+    }
+
+    .home__left__slogan {
+    }
+
+    .home__left__btn {
+      background-color: var(--blue-btn);
+      color: white;
+      padding: 1.2rem 3rem;
+      border-radius: 3rem;
+      display: inline-block;
+    }
+  }
+
+  .home__right {
+    width: 60%;
+    margin-left: 5rem;
+    text-align: center;
+    img {
+      width: 50rem;
+      height: 50rem;
+      object-fit: cover;
+    }
+  }
+}

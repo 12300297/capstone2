@@ -1,0 +1,17 @@
+.serviceCard {
+  width: calc(100% / 3);
+  padding: 0 1.2rem;
+  .serviceCard__cover {
+    img {
+      width: 100%;
+      height: 30rem;
+      object-fit: cover;
+    }
+  }
+
+  .serviceCard__title {
+  }
+
+  .serviceCard__subTitle {
+  }
+}

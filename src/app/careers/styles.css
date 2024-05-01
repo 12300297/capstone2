@@ -1,0 +1,36 @@
+.careers {
+  .careers__cover {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .careers__intro {
+    width: 80%;
+    margin: 1rem auto 1rem;
+  }
+  .careers__form {
+    width: 80%;
+    margin: 0 auto;
+    .careers__form__img {
+      width: 50%;
+    }
+
+    .careers__form__info {
+      width: 50%;
+      margin-left: 5rem;
+
+      label {
+        font-size: 1.4rem;
+      }
+      input {
+        border: none;
+        padding: 1rem;
+        background-color: #f5f5f5;
+        border-radius: 1rem;
+        margin: 1rem 0;
+      }
+    }
+  }
+}

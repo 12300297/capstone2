@@ -1,0 +1,20 @@
+.services {
+  .services__cover {
+    width: 100%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .services__intro {
+    width: 60%;
+    margin: 3rem auto;
+  }
+
+  .services__list {
+    width: 80%;
+    margin: 3rem auto;
+  }
+}
